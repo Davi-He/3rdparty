@@ -1,0 +1,23 @@
+{
+    "cmake.sourceDirectory": "/workspaces/2_opencv_4.7.0/opencv",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#eeecf6",
+        "activityBar.background": "#eeecf6",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#cc9e93",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#eeecf6",
+        "statusBar.background": "#d0c9e6",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#b2a6d6",
+        "statusBarItem.remoteBackground": "#d0c9e6",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#d0c9e6",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#d0c9e699",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.remoteColor": "#d0c9e6"
+}
