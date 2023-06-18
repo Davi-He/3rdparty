@@ -1,23 +1,23 @@
 {
-    "cmake.sourceDirectory": "/workspaces/2_opencv_4.7.0/opencv",
+    "cmake.sourceDirectory": "/workspaces/3rdparty/opencv/2_opencv_4.7.0/install/share/opencv4/samples/cpp",
     "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#eeecf6",
-        "activityBar.background": "#eeecf6",
+        "activityBar.activeBackground": "#49f561",
+        "activityBar.background": "#49f561",
         "activityBar.foreground": "#15202b",
         "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#cc9e93",
+        "activityBarBadge.background": "#9686f8",
         "activityBarBadge.foreground": "#15202b",
         "commandCenter.border": "#15202b99",
-        "sash.hoverBorder": "#eeecf6",
-        "statusBar.background": "#d0c9e6",
+        "sash.hoverBorder": "#49f561",
+        "statusBar.background": "#19f237",
         "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#b2a6d6",
-        "statusBarItem.remoteBackground": "#d0c9e6",
+        "statusBarItem.hoverBackground": "#0ccc26",
+        "statusBarItem.remoteBackground": "#19f237",
         "statusBarItem.remoteForeground": "#15202b",
-        "titleBar.activeBackground": "#d0c9e6",
+        "titleBar.activeBackground": "#19f237",
         "titleBar.activeForeground": "#15202b",
-        "titleBar.inactiveBackground": "#d0c9e699",
+        "titleBar.inactiveBackground": "#19f23799",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.remoteColor": "#d0c9e6"
+    "peacock.remoteColor": "#19f237"
 }

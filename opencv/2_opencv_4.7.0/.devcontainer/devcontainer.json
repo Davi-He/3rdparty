@@ -4,6 +4,9 @@
 	"name": "Opencv",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-18.04",
+	"extensions": [
+		"ms-vscode.cpptools-extension-pack"
+	]
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -14,20 +17,22 @@
 	// "customizations": {},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
-	"containerEnv": {
-		"DISPLAY": "${localEnv:DISPLAY}"
-	},
-	"remoteEnv": {
-		"DOCKER_BUILDKIT": "0"
-	},
+	// "containerEnv": {
+	// 	"DISPLAY": "${localEnv:DISPLAY}"
+	// },
+	// "remoteEnv": {
+	// 	"DOCKER_BUILDKIT": "0"
+	// },
 	"mounts": [
-		"source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
-		"source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached"
+		"source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+		// "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached"
 	],
 	"runArgs": [
+		"--gpus",
+		"all",
 		"--ipc=host",
 		"--network=host"
-	],
+	]
 	"postCreateCommand": "sudo apt-get update && \
-        DEBIAN_FRONTEND=noninteractive sudo apt-get install -y tree vim inetutils-ping unzip build-essential gdb python3-opencv cmake g++ wget pkg-config"
+	    DEBIAN_FRONTEND=noninteractive sudo apt-get install -y tree vim inetutils-ping unzip build-essential gdb python3-opencv cmake g++ wget libgtk2.0-dev pkg-config"
 }
