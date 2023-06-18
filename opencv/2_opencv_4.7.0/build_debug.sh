@@ -12,6 +12,7 @@ cmake \
 	-DINSTALL_C_EXAMPLES=ON  \
 	-DINSTALL_PYTHON_EXAMPLES=ON \
 	-DBUILD_JPEG=ON \
+	-DWITH_ONNX=ON \
 	../opencv
 
 VERBOSE=0 make -j30 && make install
